@@ -5,4 +5,4 @@ const server = http.createServer(function (req, res) {
   res.end()
 })
 
-server.listen(8080)
+server.listen(8080, () => { console.log('服务启动中...') })
